@@ -54,8 +54,8 @@
       </div>
     </header>
     <main class="main">
-      <div class="egg-container">
-        <picture>
+      <article class="egg-container">
+        <picture class="article-image">
           <source
             media="(min-width: 768px)"
             srcset="./assets/images/desktop/image-transform.jpg"
@@ -76,10 +76,181 @@
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <a href="#" class="learn-more"> LEARN MORE</a>
+          <a href="#" class="learn-more learn-more-yellow"> LEARN MORE</a>
         </div>
-      </div>
+      </article>
+
+      <article class="egg-container audience">
+        <picture class="article-image">
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/desktop/image-stand-out.jpg"
+          />
+          <source
+            media="(min-width: 360px)"
+            srcset="./assets/images/mobile/image-stand-out.jpg"
+          />
+          <img
+            src="./assets/images/mobile/image-stand-out.jpg"
+            alt="stand out image"
+          />
+        </picture>
+        <div class="text-container">
+          <h2 class="title">Stand out to the right audience</h2>
+          <p class="text">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <a href="#" class="learn-more learn-more-red"> LEARN MORE</a>
+        </div>
+      </article>
+      <section class="fruits">
+        <article class="fruit-container">
+          <div class="fruit-text-container">
+            <h2 class="title-fruit">Graphic Design</h2>
+            <p class="text-fruit">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </article>
+
+        <article class="fruit-container orange">
+          <div class="fruit-text-container">
+            <h2 class="title-fruit">Photography</h2>
+            <p class="text-fruit">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </article>
+      </section>
+      <section class="client-testimonials">
+        <h2 class="title-client">CLIENT TESTIMONIALS</h2>
+        <div class="clients">
+          <article class="client">
+            <img
+              class="photo-client"
+              src="./assets/images/image-emily.jpg"
+              alt="image-emily"
+            />
+            <p class="text-client">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h3 class="name-client">Emily R.</h3>
+            <p class="function-client">Marketing Director</p>
+          </article>
+
+          <article class="client">
+            <img
+              class="photo-client"
+              src="./assets/images/image-thomas.jpg"
+              alt="image-emily"
+            />
+            <p class="text-client">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h3 class="name-client">Thomas S.</h3>
+            <p class="function-client">Chief Operating Officer</p>
+          </article>
+
+          <article class="client">
+            <img
+              class="photo-client"
+              src="./assets/images/image-jennie.jpg"
+              alt="image-emily"
+            />
+            <p class="text-client">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h3 class="name-client">Jennie F.</h3>
+            <p class="function-client">Business Owner</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/desktop/image-gallery-milkbottles.jpg"
+          />
+          <source
+            media="(min-width: 360px)"
+            srcset="./assets/images/mobile/image-gallery-milkbottles.jpg"
+          />
+          <img
+            src="./assets/images/mobile/image-gallery-milkbottles.jpg"
+            alt="image-milkbottles"
+          />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/desktop/image-gallery-orange.jpg"
+          />
+          <source
+            media="(min-width: 360px)"
+            srcset="./assets/images/mobile/image-gallery-orange.jpg"
+          />
+          <img
+            src="./assets/images/mobile/image-gallery-orange.jpg"
+            alt="image-orange"
+          />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/desktop/image-gallery-cone.jpg"
+          />
+          <source
+            media="(min-width: 360px)"
+            srcset="./assets/images/mobile/image-gallery-cone.jpg"
+          />
+          <img
+            src="./assets/images/mobile/image-gallery-cone.jpg"
+            alt="image-cone"
+          />
+        </picture>
+
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./assets/images/desktop/image-gallery-sugarcubes.jpg"
+          />
+          <source
+            media="(min-width: 360px)"
+            srcset="./assets/images/mobile/image-gallery-sugar-cubes.jpg"
+          />
+          <img
+            src="./assets/images/mobile/image-gallery-sugar-cubes.jpg"
+            alt="image-sugar-cubes"
+          />
+        </picture>
+      </section>
     </main>
+
+    <footer class="footer">
+      <img class="logo" src="./assets/images/logo.svg" alt="logo" />
+      <div class="contents">
+        <p class="content">About</p>
+        <p class="content">Services</p>
+        <p class="content">Projects</p>
+      </div>
+      <div class="icons">
+        <img src="./assets/images/icon-facebook.svg" alt="facebook" />
+        <img src="./assets/images/icon-instagram.svg" alt="instagram" />
+        <img src="./assets/images/icon-twitter.svg" alt="twitter" />
+        <img src="./assets/images/icon-pinterest.svg" alt="pinterest" />
+      </div>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
